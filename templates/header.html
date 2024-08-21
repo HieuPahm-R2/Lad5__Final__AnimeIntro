@@ -19,8 +19,18 @@
     <!-- Navbar -->
     <nav id="navbar" class="navbar hide">
       <button class="navbar__close-btn js-toggle" toggle-target="#navbar">
-        <img src="./assets/icons/arrow-left.svg" alt="" />
+        <img class="icon" src="./assets/icons/arrow-left.svg" alt="" />
       </button>
+      <a href="#!" class="nav-btn d-none d-md-flex">
+        <img src="./assets/icons/buy.svg" alt="" class="nav-btn__icon icon" />
+        <span class="nav-btn__title">Card</span>
+        <span class="nav-btn__qnt">3</span>
+      </a>
+      <a href="#!" class="nav-btn d-none d-md-flex">
+        <img src="./assets/icons/heart.svg" alt="" class="nav-btn__icon icon" />
+        <span class="nav-btn__title">Favorite</span>
+        <span class="nav-btn__qnt">3</span>
+      </a>
       <ul class="navbar__list js-dropdown-list">
         <li class="navbar__item">
           <a href="#!" class="navbar__link">
@@ -37,7 +47,7 @@
                 <div class="top-menu__main">
                   <!-- Menu column -->
                   <div class="menu-column">
-                    <div class="menu-column__icon">
+                    <div class="menu-column__icon d-lg-none">
                       <img
                         src="./assets/icons/cate-1.1.svg"
                         alt=""
@@ -50,7 +60,9 @@
                       />
                     </div>
                     <div class="menu-column__content">
-                      <h2 class="menu-column__heading">All Departments</h2>
+                      <h2 class="menu-column__heading d-lg-none">
+                        All Departments
+                      </h2>
                       <ul class="menu-column__list js-menu-list">
                         <li class="menu-column__item">
                           <a href="#!" class="menu-column__link">
@@ -2468,7 +2480,7 @@
           </div>
         </li>
         <li class="navbar__item">
-          <a href="./" class="navbar__link">
+          <a href="#!" class="navbar__link">
             Grocery
             <img
               src="./assets/icons/arrow-down.svg"
@@ -2814,7 +2826,7 @@
           </div>
         </li>
         <li class="navbar__item">
-          <a href="./" class="navbar__link">
+          <a href="#!" class="navbar__link">
             Beauty
             <img
               src="./assets/icons/arrow-down.svg"
@@ -3191,11 +3203,7 @@
         </button>
         <div class="top-act__separate"></div>
         <button class="top-act__btn">
-          <img
-            src="../assets/icons/buy.svg"
-            alt=""
-            class="icon top-act__icon"
-          />
+          <img src="./assets/icons/buy.svg" alt="" class="icon top-act__icon" />
           <span class="top-act__title">$65.42</span>
         </button>
       </div>
