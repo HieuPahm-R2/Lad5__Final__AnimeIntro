@@ -1,6 +1,7 @@
 @use "../abstracts";
 html {
   --text-color: #1a162e;
+  --body-bg: #f6f6f6;
   --icon-color: brightness(0) saturate(100%) invert(8%) sepia(10%)
     saturate(4042%) hue-rotate(212deg) brightness(90%) contrast(95%);
   --header-bg-color: #eee;
@@ -18,4 +19,19 @@ html {
   // Sidebar
   --sidebar-bg: #fff;
   --sidebar-shadow: rgba(200, 200, 200, 0.4);
+  // Category item
+  --cate-item-bg: #eee;
+  --cate-item-thumb-bg: #fff;
+  --cate-item-title-color: #000;
+
+  @include abstracts.breakpoint(md) {
+    --cate-item-bg: #fff;
+  }
+  // Buttons
+  --filter-btn-color: #6c6c72;
+  --filter-btn-bg: #fff;
+
+  // Product card
+  --product-card-bg: #fff;
+  --product-card-shadow: rgba(237, 237, 246, 0.745);
 }

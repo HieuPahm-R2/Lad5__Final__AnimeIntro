@@ -36,6 +36,9 @@
     display: flex;
     align-items: center;
     column-gap: 24px;
+    @include abstracts.breakpoint(md) {
+      display: none;
+    }
   }
   &__num {
     font-size: 1.8rem;

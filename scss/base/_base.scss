@@ -27,6 +27,8 @@ select,
 textarea {
   font-family: inherit;
   color: inherit;
+  padding: 0;
+  cursor: pointer;
 }
 .icon {
   filter: var(--icon-color);

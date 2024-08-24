@@ -20,25 +20,370 @@
     </script>
 
     <div class="container">
-      <!-- Main -->
-      <!-- Slideshow -->
-      <div class="slideshow">
-        <div class="slideshow__inner">
-          <div class="slideshow__item">
-            <img
-              src="./assets/icons/Event  オリジナルTVアニメーション「リコリス・リコイル」公式サイト.png"
-              alt=""
-              class="slideshow__img"
-            />
+      <section class="home__container">
+        <!--slideshow-->
+        <div class="slideshow">
+          <div class="slideshow__inner">
+            <a href="#!" class="slideshow__item">
+              <img
+                src="./assets/icons/Event  オリジナルTVアニメーション「リコリス・リコイル」公式サイト.png"
+                alt=""
+                class="slideshow__img"
+              />
+            </a>
+          </div>
+
+          <div class="slideshow__page">
+            <span class="slideshow__num">1</span>
+            <span class="slideshow__slider"></span>
+            <span class="slideshow__num">5</span>
           </div>
         </div>
+      </section>
+      <!-- Browser -->
+      <section class="home__container">
+        <h2 class="home__heading">カテゴリーを閲覧</h2>
+        <div class="home__cate row row-cols-3 row-cols-md-1">
+          <div class="col">
+            <article class="cate-item">
+              <img
+                src="./assets/icons/spy.jpg"
+                alt=""
+                class="cate-item__thumb"
+              />
+              <section class="cate-item__info">
+                <h3 class="cate-item__title">$24 - $150</h3>
+                <p class="cate-item__desc">
+                  新しいスマトラ マンデリン コーヒー ブレンド
+                </p>
+              </section>
+            </article>
+          </div>
+          <!-- Category item 2 -->
+          <div class="col">
+            <article class="cate-item">
+              <img
+                src="./assets/icons/gotou.jpg"
+                alt=""
+                class="cate-item__thumb"
+              />
+              <section class="cate-item__info">
+                <h3 class="cate-item__title">$37 - $160</h3>
+                <p class="cate-item__desc">AnimeJapan 2023のBS11ブースにて</p>
+              </section>
+            </article>
+          </div>
 
-        <div class="slideshow__page">
-          <span class="slideshow__num">1</span>
-          <span class="slideshow__slider"></span>
-          <span class="slideshow__num">5</span>
+          <!-- Category item 3 -->
+          <div class="col">
+            <article class="cate-item">
+              <img
+                src="./assets/icons/arya.jpg"
+                alt=""
+                class="cate-item__thumb"
+              />
+              <section class="cate-item__info">
+                <h3 class="cate-item__title">$32 - $160</h3>
+                <p class="cate-item__desc">
+                  Japan BS11ブース（東京ビッグサイト 東4ホール J41）
+                </p>
+              </section>
+            </article>
+          </div>
         </div>
-      </div>
+      </section>
+      <!-- Browse Products -->
+      <section class="home__container">
+        <div class="home__row">
+          <h2 class="home__heading">Featured products over years</h2>
+          <button class="filter-btn">
+            Filter
+            <img
+              src="./assets/icons/filter.svg"
+              alt=""
+              class="filter-btn__icon icon"
+            />
+          </button>
+        </div>
+        <div class="row row-cols-4 row-cols-lg-2 row-cols-sm-1 g-3 gx-sm-4">
+          <!-- Product card 1 -->
+          <div class="col">
+            <div class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/Boku.jpg"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!">を応援いただきまして、ありがとうございます。</a>
+              </h3>
+              <p class="product-card__brand">Shin-Ei Animation</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$47.00</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">4.3</span>
+              </div>
+            </div>
+          </div>
+          <!-- Product card 2 -->
+          <div class="col">
+            <article class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/Megami-no-Cafe-Terrace.jpg"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn like-btn--liked product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!"
+                  >Lavazza Coffee Blends - Try the Italian Espresso</a
+                >
+              </h3>
+              <p class="product-card__brand">Wit Studio</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$53.00</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">4.4</span>
+              </div>
+            </article>
+          </div>
+          <!-- Product card 3 -->
+          <div class="col">
+            <article class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/Makein.webp"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn like-btn--liked product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!">対象商品封入のスペシャルブックレット裏表紙ほか</a>
+              </h3>
+              <p class="product-card__brand">A1-Pictures studio</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$99.99</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">5.0</span>
+              </div>
+            </article>
+          </div>
+
+          <!-- Product card 4 -->
+          <div class="col">
+            <article class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/demon.jpg"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!">ご購入いただきましたお客様へ大変ご迷惑をお掛</a>
+              </h3>
+              <p class="product-card__brand">UfoTable studio</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$38.65</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">4.9</span>
+              </div>
+            </article>
+          </div>
+          <!-- Product card 5 -->
+          <div class="col">
+            <div class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/swo.jpg"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!">ありがとうございます。</a>
+              </h3>
+              <p class="product-card__brand">A1-Pictures Studio</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$47.00</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">4.3</span>
+              </div>
+            </div>
+          </div>
+          <!-- Product card 6 -->
+          <div class="col">
+            <div class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/mob.jpg"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!">を応援いただきまして、ありがとうございます。</a>
+              </h3>
+              <p class="product-card__brand">Bones Studio</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$47.00</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">4.3</span>
+              </div>
+            </div>
+          </div>
+          <!-- Product card 7 -->
+          <div class="col">
+            <div class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/jujutsu.jpg"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!">を応援いただきまして、ありがとうございます。</a>
+              </h3>
+              <p class="product-card__brand">Shin-Ei Animation</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$47.00</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">4.3</span>
+              </div>
+            </div>
+          </div>
+          <!-- Product card 8 -->
+          <div class="col">
+            <div class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/frieren.jpg"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!">を応援いただきまして、ありがとうございます。</a>
+              </h3>
+              <p class="product-card__brand">Mad-House Studio</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$47.00</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">4.3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Footer -->
       <footer id="footer"></footer>
       <script>
