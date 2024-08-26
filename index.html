@@ -18,8 +18,8 @@
     <script>
       load("#header", "./templates/header.html");
     </script>
-
-    <div class="container">
+    <!--Main-->
+    <main class="container home">
       <section class="home__container">
         <!--slideshow-->
         <div class="slideshow">
@@ -249,7 +249,7 @@
             </div>
           </div>
         </div>
-        <div class="row row-cols-4 row-cols-lg-2 row-cols-sm-1 g-3">
+        <div class="row row-cols-5 row-cols-lg-2 row-cols-sm-1 g-3">
           <!-- Product card 1 -->
           <div class="col">
             <div class="product-card">
@@ -525,14 +525,81 @@
               </div>
             </div>
           </div>
+          <!-- Product card 10 -->
+          <div class="col">
+            <div class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/couple.webp"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!">を応援いただきまして、ありがとうございます。</a>
+              </h3>
+              <p class="product-card__brand">Mad-House Studio</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$47.00</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">4.3</span>
+              </div>
+            </div>
+          </div>
+          <!-- Product card 9 -->
+          <div class="col">
+            <div class="product-card">
+              <div class="product-card__img-wrap">
+                <a href="#!">
+                  <img
+                    src="./assets/icons/Nokotan.jpg"
+                    alt=""
+                    class="product-card__thumb"
+                  />
+                </a>
+                <button class="like-btn product-card__like-btn">
+                  <img
+                    src="./assets/icons/heart.svg"
+                    alt=""
+                    class="like-btn__icon icon"
+                  />
+                </button>
+              </div>
+              <h3 class="product-card__title">
+                <a href="#!">を応援いただきまして、ありがとうございます。</a>
+              </h3>
+              <p class="product-card__brand">Mad-House Studio</p>
+              <div class="product-card__row">
+                <span class="product-card__price">$47.00</span>
+                <img
+                  src="./assets/icons/star.svg"
+                  alt=""
+                  class="product-card__star"
+                />
+                <span class="product-card__score">4.3</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-
-      <!-- Footer -->
-      <footer id="footer"></footer>
-      <script>
-        load("#footer", "./templates/footer.html");
-      </script>
-    </div>
+    </main>
+    <!--footer-->
+    <footer id="footer" class="footer"></footer>
+    <script>
+      load("#footer", "./templates/footer.html");
+    </script>
   </body>
 </html>
