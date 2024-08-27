@@ -19,6 +19,7 @@
     margin-left: 0;
   }
   &__img {
+    width: 100px;
     @include abstracts.breakpoint(lg) {
       width: 24px;
     }

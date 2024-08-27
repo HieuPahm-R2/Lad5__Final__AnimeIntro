@@ -34,17 +34,7 @@
   }
   &__form {
     margin-top: 30px;
-    &-label {
-      display: block;
-      font-size: 2.2rem;
-      font-weight: 500;
-      line-height: 145.455%;
-      &--small {
-        margin-bottom: 10px;
-        font-size: 1.4rem;
-        line-height: 142.857%;
-      }
-    }
+
     &-group {
       margin-top: 20px;
       &--inline {
@@ -87,69 +77,11 @@
       }
     }
 
-    &-select-wrap,
     &-text-input {
       border-radius: 6px;
       border: 1px solid #d2d1d6;
     }
-    &-select-wrap {
-      display: flex;
-      align-items: center;
-      height: 45px;
-    }
-    &-text-input {
-      display: flex;
-      align-items: center;
-      width: 334px;
-      height: 44px;
-      padding: 0 16px;
-      overflow: hidden;
-      &--small {
-        width: 121px;
-        height: 36px;
-        padding: 0 12px;
-      }
-      @include abstracts.breakpoint(sm) {
-        width: 100%;
-      }
-    }
-    &-select {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 14px;
-      min-width: var(--width, 108px);
-      height: calc(100% - 10px);
-      font-size: 1.4rem;
-      font-weight: 500;
-      line-height: 142.857%;
-      cursor: pointer;
-    }
-    &-select + &-select {
-      border-left: 1px solid #d2d1d6;
-    }
-    &-tags {
-      display: flex;
-      // justify-content: space-around;
-      flex-wrap: wrap;
-      gap: 10px 20px;
-    }
-    &-tag {
-      padding: 6px 12px;
-      border-radius: 6px;
-      border: 1px solid #d2d1d6;
-      color: #9e9da8;
-      background: var(--filter-form-tag-bg);
 
-      font-size: 1.4rem;
-      font-weight: 500;
-      line-height: 142.857%;
-      transition: color 0.2s;
-
-      &:hover {
-        color: var(--text-color);
-      }
-    }
     &-input-icon {
       margin-left: 12px;
     }

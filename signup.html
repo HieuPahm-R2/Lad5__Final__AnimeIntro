@@ -13,19 +13,116 @@
     <title>Sign up | コー​​ヒーショップ</title>
   </head>
   <body>
-    <!-- Header -->
-    <header id="header"></header>
-    <script>
-      load("#header", "./template/header.html");
-    </script>
+    <main class="auth">
+      <div class="auth__intro">
+        <a href="./" class="logo auth__intro-logo d-none d-md-flex">
+          <img src="./assets/icons/alo1.png" alt="" class="logo__img" />
+          <h1 class="logo__title">コー​​ヒーショップ</h1>
+        </a>
+        <img src="./assets/icons/sign.webp" alt="" class="auth__intro-img" />
+        <p class="auth__intro-text d-md-none">
+          The best of luxury brand values, high quality products, and innovative
+          services
+        </p>
+        <button
+          class="auth__intro-next d-none d-md-flex js-toggle"
+          toggle-target="#auth-content"
+        >
+          <img src="./assets/icons/intro-arrow.svg" alt="" />
+        </button>
+      </div>
+      <div id="auth-content" class="auth__content hide">
+        <div class="auth__content-inner">
+          <!-- Logo -->
+          <a href="./" class="logo">
+            <img src="./assets/icons/alo1.png" alt="" class="logo__img" />
+            <h1 class="logo__title">コー​​ヒーショップ</h1>
+          </a>
+          <h1 class="auth__heading">Sign Up</h1>
+          <p class="auth__desc">
+            Let’s create your account and Choose your best Anime Series.
+          </p>
+          <form action="./index-logined.html" class="form auth__form">
+            <div class="form__group">
+              <div class="form__text-input">
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Email"
+                  class="form__input"
+                />
+                <img
+                  src="./assets/icons/message.svg"
+                  alt=""
+                  class="form__input-icon"
+                />
+              </div>
+            </div>
+            <div class="form__group">
+              <div class="form__text-input">
+                <input
+                  type="password"
+                  name=""
+                  id=""
+                  placeholder="Password"
+                  class="form__input"
+                />
+                <img
+                  src="./assets/icons/lock.svg"
+                  alt=""
+                  class="form__input-icon"
+                />
+              </div>
+            </div>
+            <div class="form__group">
+              <div class="form__text-input">
+                <input
+                  type="password"
+                  name=""
+                  id=""
+                  placeholder="Confirm password"
+                  class="form__input"
+                />
+                <img
+                  src="./assets/icons/lock.svg"
+                  alt=""
+                  class="form__input-icon"
+                />
+              </div>
+            </div>
+            <div class="form__group form__group--inline">
+              <label class="form__checkbox">
+                <input
+                  type="checkbox"
+                  name=""
+                  id=""
+                  class="form__checkbox-input"
+                />
+                <span class="form__checkbox-label">Set as default card</span>
+              </label>
+              <a href="#!" class="auth__link form__pull-right"
+                >Recovery Password</a
+              >
+            </div>
+            <div class="form__group auth__btn-group">
+              <button class="btn btn--primary auth__btn">Sign Up</button>
+              <button class="btn btn--outline auth__btn btn--no-margin">
+                <img src="./assets/icons/google.svg" alt="" class="btn__icon" />
+                Sign in with Gmail
+              </button>
+            </div>
+          </form>
 
-    <!-- Main -->
-    <h1>Sign up page</h1>
-
-    <!-- Footer -->
-    <footer id="footer"></footer>
+          <p class="auth__text">
+            You have an account yet?
+            <a href="./signin.html" class="auth__link">Sign In</a>
+          </p>
+        </div>
+      </div>
+    </main>
     <script>
-      load("#footer", "./template/footer.html");
+      window.dispatchEvent(new Event("template-loaded"));
     </script>
   </body>
 </html>
