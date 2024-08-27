@@ -4,6 +4,10 @@
 ::before {
   box-sizing: border-box;
 }
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -31,7 +35,6 @@ textarea {
   padding: 0;
   border: none;
   outline: none;
-  -webkit-tap-highlight-color: transparent;
   cursor: pointer;
 }
 .icon {

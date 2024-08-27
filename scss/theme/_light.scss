@@ -12,6 +12,9 @@ html {
     --header-bg-color: #fff;
     --header-shadow-color: rgba(237, 237, 246, 0.2);
   }
+  // Header
+  --header-act-dropdown-bg: #fff;
+  --header-act-dropdown-shadow: rgba(200, 200, 200, 0.4);
   // Dropdown
   --dropdown-bg-color: #ffffff;
   --dropdown-shadow-color: rgba(200, 200, 200, 0.4);
@@ -47,4 +50,12 @@ html {
   // Breadcrumbs
   --breadcrmbs-bg: #f6f6f6;
   --breadcrmbs-shadow: rgba(237, 237, 246, 0.2);
+  --product-detail-info-bg: #f6f6f6;
+
+  @include abstracts.breakpoint(md) {
+    --product-detail-bg: #fafafd;
+    --product-detail-info-bg: #fff;
+  }
+  // Review card
+  --review-card-bg: #fafafd;
 }
