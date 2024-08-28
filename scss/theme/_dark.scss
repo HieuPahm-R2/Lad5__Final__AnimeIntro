@@ -44,13 +44,38 @@ html.dark {
   --form-placeholder-color: #b9babe;
   // Product detail
   --product-detail-bg: #292e39;
+  --product-detail-info-bg: #171c28;
+  --product-detail-info-content-bg: transparent;
+  --product-detail-tag-bg: #292e39;
+
+  @include abstracts.breakpoint(md) {
+    --product-detail-bg: #292e39;
+    --product-detail-info-bg: transparent;
+    --product-detail-info-content-bg: #171c28;
+  }
   // Breadcrumbs
   --breadcrmbs-bg: #171c28;
   --breadcrmbs-shadow: rgba(23, 28, 40, 0.2);
+  @include abstracts.breakpoint(md) {
+    --breadcrmbs-bg: #171c28;
+  }
+  // Search bar
+  --search-bar-bg: #171c28;
   // Checkout
   --checkout-breadcrumbs-bg: #171c28;
   --checkout-cart-info-bg: #171c28;
   --checkout-cart-info-shadow: rgba(23, 28, 40, 0.2);
   --checkout-border-color: #292e39;
   --checkout-gift-shadow: rgba(23, 28, 40, 0.2);
+  // Profile
+  --profile-sidebar-bg: #171c28;
+  --profile-sidebar-shadow: rgba(23, 28, 40, 0.2);
+  --profile-sidebar-link-hover: #2f3441;
+
+  // Account info
+  --account-info-bg: #292e39;
+  --account-info-icon-bg: #171c28;
+
+  // Separate
+  --separate-color: #292e39;
 }

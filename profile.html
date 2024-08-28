@@ -43,18 +43,18 @@
 
         <!-- Profile content -->
         <div class="profile-container">
-          <div class="row">
-            <div class="col-4">
+          <div class="row gy-md-3">
+            <div class="col-3 col-xl-4 col-lg-5 col-md-12">
               <aside class="profile__sidebar">
                 <!-- User -->
                 <div class="profile-user">
                   <img
-                    src="./assets/img/avatar.jpg"
+                    src="./assets/icons/cat.png"
                     alt=""
                     class="profile-user__avatar"
                   />
-                  <h1 class="profile-user__name">Imran Khan</h1>
-                  <p class="profile-user__desc">Registered: 17th May 2022</p>
+                  <h1 class="profile-user__name">Pham Trung Hieu</h1>
+                  <p class="profile-user__desc">Registered: 28th August 2024</p>
                 </div>
 
                 <!-- Menu 1 -->
@@ -194,7 +194,200 @@
                 </div>
               </aside>
             </div>
-            <div class="col-8"></div>
+            <div class="col-9 col-xl-8 col-lg-7 col-md-12">
+              <div class="cart-info">
+                <div class="row gy-3">
+                  <div class="col-12">
+                    <h2 class="cart-info__heading">My Wallet</h2>
+                    <p class="cart-info__desc profile__desc">Payment methods</p>
+                    <div
+                      class="row gy-md-2 row-cols-3 row-cols-xl-2 row-cols-lg-1"
+                    >
+                      <!-- Payment card 1 -->
+                      <div class="col">
+                        <article
+                          class="payment-card"
+                          style="--bg-color: #1e2e69"
+                        >
+                          <img
+                            src="./assets/icons/plane-bg.svg"
+                            alt=""
+                            class="payment-card__img"
+                          />
+                          <div class="payment-card__top">
+                            <img src="./assets/icons/plane.svg" alt="" />
+                            <span class="payment-card__type">FeatherCard</span>
+                          </div>
+                          <div class="payment-card__number">
+                            1234 4567 8901 2221
+                          </div>
+                          <div class="payment-card__bottom">
+                            <div>
+                              <p class="payment-card__label">MB Bank</p>
+                              <p class="payment-card__value">Hieu Pahm</p>
+                            </div>
+                            <div class="payment-card__expired">
+                              <p class="payment-card__label">Expired</p>
+                              <p class="payment-card__value">10/30</p>
+                            </div>
+                            <div class="payment-card__circle"></div>
+                          </div>
+                        </article>
+                      </div>
+
+                      <!-- Payment card 2 -->
+                      <div class="col">
+                        <article
+                          class="payment-card"
+                          style="--bg-color: #354151"
+                        >
+                          <img
+                            src="./assets/icons/leaf-bg.svg"
+                            alt=""
+                            class="payment-card__img"
+                          />
+                          <div class="payment-card__top">
+                            <img src="./assets/icons/leaf.svg" alt="" />
+                            <span class="payment-card__type">Techcombank</span>
+                          </div>
+                          <div class="payment-card__number">
+                            1234 4567 2221 8901
+                          </div>
+                          <div class="payment-card__bottom">
+                            <div>
+                              <p class="payment-card__label">MVP Card</p>
+                              <p class="payment-card__value">Hieu Pahm</p>
+                            </div>
+                            <div class="payment-card__expired">
+                              <p class="payment-card__label">Expired</p>
+                              <p class="payment-card__value">11/30</p>
+                            </div>
+                            <div class="payment-card__circle"></div>
+                          </div>
+                        </article>
+                      </div>
+                      <!-- Add new payment card -->
+                      <div class="col">
+                        <a class="new-card" href="#!">
+                          <img
+                            src="./assets/icons/plus.svg"
+                            alt=""
+                            class="new-card__icon"
+                          />
+                          <p class="new-card__text">Add New Card</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <h2 class="cart-info__heading">Account info</h2>
+                    <p class="cart-info__desc profile__desc">
+                      Addresses, contact information and password
+                    </p>
+                    <div class="row gy-md-2 row-cols-2 row-cols-lg-1">
+                      <!-- Account info 1 -->
+                      <div class="col">
+                        <article class="account-info">
+                          <div class="account-info__icon">
+                            <img
+                              src="./assets/icons/message.svg"
+                              alt=""
+                              class="icon"
+                            />
+                          </div>
+                          <div>
+                            <h3 class="account-info__title">Email Address</h3>
+                            <p class="account-info__desc">
+                              YanamiAnNaFe05@gmail.com
+                            </p>
+                          </div>
+                        </article>
+                      </div>
+
+                      <!-- Account info 2 -->
+                      <div class="col">
+                        <article class="account-info">
+                          <div class="account-info__icon">
+                            <img
+                              src="./assets/icons/calling.svg"
+                              alt=""
+                              class="icon"
+                            />
+                          </div>
+                          <div>
+                            <h3 class="account-info__title">Phone number</h3>
+                            <p class="account-info__desc">+84 111 2345 657</p>
+                          </div>
+                        </article>
+                      </div>
+                      <!-- Account info 3 -->
+                      <div class="col-6">
+                        <article class="account-info">
+                          <div class="account-info__icon">
+                            <img
+                              src="./assets/icons/location.svg"
+                              alt=""
+                              class="icon"
+                            />
+                          </div>
+                          <div>
+                            <h3 class="account-info__title">Add an address</h3>
+                            <p class="account-info__desc">
+                              Tien Hai, Thai Binh Province
+                            </p>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <h2 class="cart-info__heading">Lists</h2>
+                    <p class="cart-info__desc profile__desc">
+                      2 items - Primary
+                    </p>
+                    <article class="favorite-item">
+                      <img
+                        src="./assets/icons/demon.jpg"
+                        alt=""
+                        class="favorite-item__thumb"
+                      />
+                      <div>
+                        <h3 class="favorite-item__title">
+                          DVD - Blurays | Demon SLayer Ss2
+                        </h3>
+                        <div class="favorite-item__content">
+                          <span class="favorite-item__price">$47.00</span>
+                          <button class="btn btn--primary btn--rounded">
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                    <div class="separate" style="--margin: 20px"></div>
+
+                    <!-- Favorite item 2 -->
+                    <article class="favorite-item">
+                      <img
+                        src="./assets/icons/Makein.webp"
+                        alt=""
+                        class="favorite-item__thumb"
+                      />
+                      <div>
+                        <h3 class="favorite-item__title">
+                          DVD - Blurays | Too Many Loosing Heroines Ss1
+                        </h3>
+                        <div class="favorite-item__content">
+                          <span class="favorite-item__price">$53.00</span>
+                          <button class="btn btn--primary btn--rounded">
+                            Add to cart
+                          </button>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
