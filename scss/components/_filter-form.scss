@@ -34,7 +34,6 @@
   }
   &__form {
     margin-top: 30px;
-
     &-group {
       margin-top: 20px;
       &--inline {
@@ -78,8 +77,18 @@
     }
 
     &-text-input {
+      display: flex;
+      align-items: center;
       border-radius: 6px;
       border: 1px solid #d2d1d6;
+      width: 334px;
+      height: 44px;
+      padding: 0 16px;
+      &--small {
+        width: 121px;
+        height: 36px;
+        padding: 0 12px;
+      }
     }
 
     &-input-icon {

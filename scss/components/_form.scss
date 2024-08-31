@@ -60,7 +60,6 @@
       line-height: 142.857%;
     }
   }
-
   &__select-wrap {
     display: flex;
     align-items: center;
@@ -68,7 +67,6 @@
     border-radius: 6px;
     border: 1px solid #d2d1d6;
   }
-
   &__select {
     display: flex;
     align-items: center;
@@ -93,7 +91,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px 20px;
-
     @include abstracts.breakpoint(sm) {
       gap: 10px;
     }

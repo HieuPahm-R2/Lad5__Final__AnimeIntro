@@ -2539,8 +2539,18 @@ html {
   font-weight: 400;
 }
 .filter__form-text-input {
+  display: flex;
+  align-items: center;
   border-radius: 6px;
   border: 1px solid #d2d1d6;
+  width: 334px;
+  height: 44px;
+  padding: 0 16px;
+}
+.filter__form-text-input--small {
+  width: 121px;
+  height: 36px;
+  padding: 0 12px;
 }
 .filter__form-input-icon {
   margin-left: 12px;
