@@ -1,4 +1,4 @@
-#A Landing page to show anime list events
+#A Landing page with responsive to show anime list events
 ---------------------------
 Tech stack:
   - HTML5,CSS/SASS - grid system
